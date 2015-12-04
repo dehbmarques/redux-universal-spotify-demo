@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "no-console": 0,
+    "padded-blocks": 0,
+    "comma-dangle": 0,
+    "space-before-function-paren": [1, "always"],
+    "brace-style": [2, "stroustrup"],
+    "indent": [2, 2, {"SwitchCase": 1}]
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "__SERVER__": true,
+    "__CLIENT__": true
+  }
+}
